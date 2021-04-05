@@ -17,26 +17,9 @@ $colors: (
 );
 
 ///
-/// Styles specific to the popup page
-///
-$popup--transition-time--button: .25s;
-$popup--width--popup-wrapper:    100px;
-$popup--width--slider:           60px;
-$popup--width--half-slider:      $popup--width--slider / 2;  // 30px
-$popup--offset--button:          $popup--width--slider / 15; // 4px
-$popup--width--button:           ($popup--width--slider / 2) - $popup--offset--button; // 26px
-$popup--radius--slider:          ($popup--width--slider / 2) + $popup--offset--button; // 34px
-
-///
-/// Styles specific to the options page
-///
-$options--width--header: 100px;
-$options--width--input:  48px;
-
-///
 /// Font-related styles, irrespective of page
 ///
-$font--stack:     Muli, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font--stack:     'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font--base-size: 1rem;
 $font--size--h1:  2rem;
 $font--size--h2:  1.5rem;
@@ -60,8 +43,3 @@ $width--grid-gutter:       20px;
 $width--grid-gutter-split: $width--grid-gutter / 2;                   // 10px
 $width--grid-column-full:  $width--grid-column + $width--grid-gutter; // 80px
 $height--leading:          24px;
-
-///
-/// Styles specific to the info side bar created when the grid is shown to the user.
-///
-$offset-sidebar: 14px;
