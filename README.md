@@ -1,6 +1,8 @@
-# The Modular Grid
+# grid-overlay
 
-## Installation
+Chrome extension that provides configurable grid-overlay
+
+## Manual installation
 
 ```
 git clone git@github.com:reeFridge/the-modular-grid
